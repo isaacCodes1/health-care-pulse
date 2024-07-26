@@ -34,3 +34,28 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+
+<!-- Docs for all the files in this website -->
+
+All the dates functions are available in the utils.ts file, which is in the lib folder.
+
+In the layout.tsx file, the functions for the layout of all the pages of the website are available, including the custom 'cn' classNames and a variable for our fontFamily.
+
+In the theme-provider.ts file, I defined the shadcn dark theme that I used to change the colours of everything coming from shadcn to dark theme colours.
+
+The components folder was created when i ran the shadcn commandd in the terminal, everything installed from shadcn will be added into the folder as components that can be used again many times.
+
+
+The Phone number/country generator with automatic country code is comig from react-phone-number-input from npm website.
+
+
+
+<!-- BACKEND -->
+
+All the id's of all the databases in appwrite are in the'.env.local' file.
+
+They were rendered as props in 'appwrite.config.ts' file.
+
